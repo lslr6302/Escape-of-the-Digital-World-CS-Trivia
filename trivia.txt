@@ -1,0 +1,60 @@
+<html>Complete the if statement to print “Hi”:<br/>if (*word1 is alphabetically before word2*) {<br/>System.out.println(“Hi”);<br/>}<html/>
+word2.compareToIgnoreCase(word1) < 0
+|word1.compareToIgnoreCase(word2) < 0
+word1.compareToIgnoreCase(word2) > 0
+word1.compareToIgnoreCase(word2) == 0
+Which statement is false about method documentation? 
+|To write a documentation comment, you do: /* */
+You need a @param tag for parameters in the method.
+A @return tag is not required for void methods. 
+Documentation comments come before the method declaration.
+Which statement is false about error handling in Java?
+We use the try-catch structure to handle errors or exceptions. 
+All Java exception classes are derived from a class called Throwable. 
+Each statement must catch a different type of exception.
+|The code in a finally block will run only if the try-catch was successful.
+Which of the following is true for algorithm efficiency?
+|Big O describes the worst case scenario.
+The higher the complexity, the more efficient the algorithm is.
+For Big O notation, code chunks that come one-after-another get multiplied.
+Big O notation analyses efficiency based on memory usage of the program. 
+Which uses recursion and has an efficiency of O(logN)?
+|Binary Search
+Insertion Sort
+Fibonacci Numbers
+Merge Sort
+I pick an element as a “pivot” and break up the data structure around it. What am I?
+Bubble Sort
+Merge Sort
+|Quick Sort
+Selection Sort
+Which statement is false about reading and writing files in Java?
+Default setting for FileWriter is to overwrite data currently on file.
+Output and writer stream must be closed in reverse order in which they were opened.
+|The File class is part of the java.util package. 
+BufferedReader imports all the information it reads as String data.
+Which statement is true for abstract classes and interfaces?
+An interface is meant to be inherited. 
+|Classes can inherit from only one abstract class, but they can implement multiple interfaces. 
+An abstract class contains only method declarations and nothing else.
+All interface methods are private and abstract by default.
+Which is an advantage of queues?
+Data is not easily corruptible
+Great for reversing the order of data
+Not easily searchable
+|Can handle multiple data types
+Which one is not a semantic event?
+|WindowEvent
+DocumentEvent
+ActionEvent
+ItemEvent
+Which of the following is false about graphics in Java?
+setSize() does not work for JPanels – it must be setPreferredSize().
+|You can only use Timer in javax.swing for achieving animation effects in Java.
+Both JCheckBox and JRadioButton have getMnemonic() and setMnemonic() for keyboard shortcuts.
+The correct order of animation is: setup, game mechanics, update graphics, sleep, end main game loop.
+How Many Hamburgers Does McDonald's Sell Every Second?
+55
+65
+|75
+85
